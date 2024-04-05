@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+  ></script>
+
+    <title>Recipe Book</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img class="logo" alt="Recipe Book" src="assets/logos/logo_name.png" />
+        </a>
+
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#"> How it Works</a></li>
+                <li><a class="main-nav-link" href="#">Recipes</a></li>
+                <li><a class="main-nav-link" href="#">Contact</a></li>
+                <li><a class="main-nav-link" href="#">Sign Up</a></li>
+                <li><a class="main-nav-link" href="#">Log In</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    
+    <main>
+        <section class="section-hero"> 
+            <div class="hero">
+                <div class=""hero-text-box>
+                    <h1 class="heading-primary">
+                        Learn to cook the best meals with Recipe Book 
+                    </h1>
+                    <p class="hero-description">
+                        Join our community and improve your cooking skills with our recipes. 
+                        It is easy to get started and you can cancel at any time. Don't miss out!
+                    </p>
+                    <a href="#" class="btn btn--full margin-right-small">Get Started</a>
+
+                    <a href="#" class="btn btn--outline">Learn More &darr;</a>
+                    <div class="delivered">
+                        <div class="delivered-imgs">
+                            <img src="assets/customers/ben-affleck.jpg" alt="Ben Affleck"/>
+                            <img src="assets/customers/emma-stone.jpg" alt="Emma Stone"/>
+                            <img src="assets/customers/The_Rock.jpg" alt="The Rock"/>
+                            <img src="assets/customers/Bradley-Cooper.jpg" alt="Bradley Cooper"/>
+                        </div>
+                        <p class="delivered-text">
+                            <span>250,000+</span> of our customers love our recipes!
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-img-box">
+                    <img src="assets/meals/food.jpg" alt="Basket of vegetable" class="hero-img"/>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-features">
+            <div class="feature">
+                <ion-icon class="feature-icon" name="flame-outline"></ion-icon>
+                <h3 class="heading-tertiary">Delicious Recipes</h3>
+                <p class="feature-text">
+                    Our recipes are delicious and easy to make. You will love them!
+                </p>
+            </div>
+            <div class="feature">
+                <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+                <h3 class="heading-tertiary">Healthy Meals</h3>
+                <p class="feature-text">
+                    Our recipes are healthy and will help you to stay in shape.
+                </p>
+            </div>
+            <div class="feature">
+                <ion-icon class="feature-icon" name="restaurant-outline"></ion-icon>
+                <h3 class="heading-tertiary">Restaurant Quality</h3>
+                <p class="feature-text">
+                    Our recipes are of the highest quality and taste like restaurant meals.
+                </p>
+            </div>
+            <div class="feature">
+                <ion-icon class="feature-icon" name="fast-food-outline"></ion-icon>
+                <h3 class="heading-tertiary">Quick & Easy</h3>
+                <p class="feature-text">
+                    Our recipes are quick and easy to make. You will love them!
+                </p>
+            </div>
+        </section>
+
+        <section class="section-steps">
+            <div class="container">
+                <span class="subheading">How it works</span>
+                <h2 class="heading-secondary">
+                    It's easy to get started with Recipe Book
+                </h2>
+            </div>
+
+            <div class="container grid grid--2-cols grid--center-v">
+                <!-- Step 1 -->
+                <div class="step-text-box">
+                    <p class="step-number">01</p>
+                    <h3 class="heading-tertiary">
+                        Tell us what you like and we will find the best recipes for you
+                    </h3>
+                    <p class="step-description">
+                        You can tell us what you like and we will find the best recipes for you. 
+                        You can also tell us what you don't like and we will avoid those recipes.
+                    </p>
+                </div>
+
+                <div class="step-img-box">
+                    <img src="assets/app/iphone_app1.jpg" class="step-img" alt="iphone dessert"/>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-img-box">
+                    <img src="assets/app/iphone_app2.jpg" class="step-img" alt="all recipes"/>
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">
+                        our app will show you the best recipes for you
+                    </h3>
+                    <p class="step-description">
+                        Our app will show you the best recipes for you. You can also search for recipes 
+                        and save your favorite recipes to your profile.
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-text-box">
+                    <p class="step-number">03</p>
+                    <h3 class="heading-tertiary">
+                        Start cooking and enjoy your meals
+                    </h3>
+                    <p class="step-description">
+                        Start cooking and enjoy your meals. You can also share your recipes with 
+                        our community and get feedback from other users.
+                    </p>
+                </div>
+                <div class="step-img-box">
+                    <img src="assets/app/iphone_app3.jpg" class="step-img" alt="iphone cooking"/>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+    

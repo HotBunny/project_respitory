@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png">
+  <link type="text/css" href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+    crossorigin="anonymous" />
+
+  <title>Grand Theatre</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-ul" id="nav-ul">
+        <li><a class="active" id="#homelink" href="#">Home</a></li>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#ourwork">Our Work</a></li>
+        <li><a data-scroll href="#partners">Partners</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Fixed Panel -->
+    <section class="panel-grid">
+      <section>
+        <p>LET'S CONNECT</p>
+      </section>
+      <section>
+        <i class="fas fa-minus"></i>
+      </section>
+      <section>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      </section>
+      <section>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </section>
+      <section>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      </section>
+    </section>
+    <!-- Header Content -->
+    <section class="header-content">
+      <section class="header-content-text">
+        <h2>Grand Theatre</h2>
+        <p> The Grand Theater is one of the oldest theatres across United
+          States of America, which was founded in 1786. Since that time it
+          was gaining popularity among people of any age. Today the Grand
+          Theatre is one of the largest theatre buildings in America and
+          Europe.
+        </p>
+        <a href="#about" class="read-more">READ</a>
+      </section>
+      <!-- Slider -->
+      <section class="header-slider">
+        <section class="showSlide fade">
+          <img class="slider-image" src="assets/slider-1.png" alt="" />
+        </section>
+        <section class="showSlide fade">
+          <img class="slider-image" src="assets/slider-2.jpg" alt="" />
+        </section>
+
+        <section class="showSlide fade">
+          <img class="slider-image" src="assets/slider-3.png" alt="" />
+        </section>
+        <section class="showSlide fade">
+          <img class="slider-image" src="assets/slider-4.png" alt="" />
+        </section>
+        <a class="left" onclick="nextSlide(-1)">❯</a>
+        <a class="right" onclick="nextSlide(1)">❮</a>
+      </section>
+    </section>
+  </header>
+  <!-- About -->
+  <section class="container-basics">
+    <h2 class="titles">About Us</h2>
+    <section class="about">
+      <section>
+        <h2>The Grand Theatre</h2>
+        <p>
+            The Grand Theatre, a bastion of cultural richness and artistic expression, 
+            invites you into a world where sophistication meets innovation. With its majestic 
+            architecture and versatile stage, it hosts performances that transcend tradition, 
+            creating immersive experiences for all. A haven for creativity and a sanctuary for 
+            artistic dreams, The Grand Theatre is not just a venue but a timeless testament to 
+            the power of live performances, captivating hearts and inspiring generations.
+        </p>
+      </section>
+      <section class="about-image"></section>
+    </section>
+  </section>
+  <!-- Work showcase -->
+  <section class="container-basics">
+    <h2 class="titles">Our Work</h2>
+    <section class="work-showcase">
+      <!-- Slider 1 -->
+      <section class="slider-1">
+        <p class="slider-desc">Oscar 2020</p>
+        <p class="alt-text">May 2020</p>
+        <section class="hide">
+          <a href="#"><i class="fas fa-search"></i></a>
+        </section>
+      </section>
+      <!-- Slider 2 -->
+      <section class="slider-2">
+        <p class="slider-desc">Tosca</p>
+        <p class="alt-text">June 2020</p>
+        <section class="hide">
+          <a href="#"><i class="fas fa-search"></i></a>
+        </section>
+      </section>
+      <!-- Slider 3 -->
+      <section class="slider-3">
+        <p class="slider-desc">La bohème</p>
+        <p class="alt-text">August 2020</p>
+        <section class="hide">
+          <a href="#"><i class="fas fa-search"></i></a>
+        </section>
+      </section>
+      <!-- Slider 4 -->
+      <section class="slider-4">
+        <p class="slider-desc">Così fan tutte</p>
+        <p class="alt-text">October 2020</p>
+        <section class="hide">
+          <a href="#"><i class="fas fa-search"></i></a>
+        </section>
+      </section>
+    </section>
+  </section>
+  <!-- Statistics -->
+  <section class="statistics container-basics">
+    <section class="statistics-info">
+      <section class="years">
+        <p>2018</p>
+        <p>2020</p>
+        <p>2024</p>
+      </section>
+      <section class="information">
+        <img src="assets/stars.png" alt="" />
+        <p>The best theatre according to theatre critics in Europe</p>
+      </section>
+    </section>
+  </section>
+  <!-- Partners -->
+  <section class="partners container-basics">
+    <h2 class="titles">Our Partners</h2>
+    <section class="partner-grid">
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </section>
+    <!-- Contact -->
+    <section class="container-basics">
+      <h2 class="titles">Become a patron</h2>
+      <section class="contact">
+        <section class="contact-info">
+          <p>+1 000-000-0000</p>
+          <p>+1 000-000-0000</p>
+          <p>info@grandtheatremail.com</p>
+          <p>Oklahoma, Tulsa, 0000</p>
+        </section>
+        <form class="form">
+          <label for="fullname">
+            <input type="text" id="fullname" for="fullname" placeholder="Full Name" />
+          </label>
+          <label for="company">
+            <input type="text" id="company" for="company" placeholder="Company" />
+          </label>
+          <label for="message" class="message">
+            <textarea id="message" for="message" placeholder="Type your message"></textarea>
+          </label>
+          <label for="number">
+            <input type="text" id="number" for="number" placeholder="Number" />
+          </label>
+          <label for="email">
+            <input type="email" id="email" for="email" placeholder="E-mail" />
+          </label>
+          <p class="privacy">
+            * We do not rent, sell or share personal information about you
+            with other people or non-affiliated companies.
+          </p>
+          <button class="submit" type="submit">Send</button>
+        </form>
+      </section>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <section>
+        <copyright>All rights reserved &copy; Grand Theatre 2024.</copyright>
+        <p class="credit">Made by<i class="fas fa-mug-hot"></i>by<a href="https://github.com/HotBunny" target="_blank">HotBunny</a>
+        </p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

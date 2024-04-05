@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%
+}
+
+.container{
+    background-color: #000;
+    
+}
